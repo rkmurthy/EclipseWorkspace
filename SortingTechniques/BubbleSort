@@ -1,0 +1,6 @@
+//Bubble sort
+import java.io.*;
+import java.util.*;
+
+public class BubbleSort{
+integer [] a;
