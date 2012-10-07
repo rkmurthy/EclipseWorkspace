@@ -1,0 +1,54 @@
+package myJavaProgs;
+import java.io.*;
+public class HexToDecimal {
+
+	public static void main(String args[])throws IOException{
+		
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("Enter number in hex");
+		
+		String s=br.readLine();
+		
+		int decimal=Integer.parseInt(s,16);
+		
+		String binary=Integer.toBinaryString(decimal);
+		
+		System.out.println("Number in Binary: "+binary);
+		
+		int result=Integer.parseInt(s,16);
+		
+		System.out.println("Number in decimal:"+result);
+	}
+}	
+/*	public void HexToBinary(String s){
+		
+		int len=s.length();
+		int n=len%4;
+		int a[];
+		switch(n){
+		case 1: 
+			a=new int[len+3];
+			break;
+		case 2: 
+			a=new int[len+2];
+			break;
+		case 3:
+			a=new int[len+1];
+			break;
+		case 0: 
+			a=new int[len];
+		}
+		
+		int b[]=new int[4];
+		
+		for(int i=0;i<s.length();)
+			for(int j=0;j<4;j++){
+				
+)
+				
+			
+		
+		
+		}*/
+	

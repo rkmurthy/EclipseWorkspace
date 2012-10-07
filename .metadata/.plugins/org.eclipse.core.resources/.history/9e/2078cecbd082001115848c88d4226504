@@ -1,0 +1,162 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.StringTokenizer;
+
+public class NaiveBayes {
+
+	public static void main(String args[])throws Exception{
+		File f1=new File("training.txt");
+		File f2=new File("testdata.txt");
+		File f3=new File("stopwords.txt");
+		
+		ArrayList<String> stopwords = new ArrayList<String>();
+		ArrayList<String> uniqueWords=new ArrayList<String>();
+		
+		HashMap<String,Integer> h1=new HashMap<String,Integer>();//positive
+		HashMap<String,Integer> h2=new HashMap<String,Integer>();//negative
+		
+		FileInputStream fis1=new FileInputStream(f1);
+		FileInputStream fis2=new FileInputStream(f3);
+		
+		BufferedReader br=new BufferedReader(new InputStreamReader(fis1));
+		BufferedReader br1=new BufferedReader(new InputStreamReader(fis1));
+	    BufferedReader br2=new BufferedReader(new InputStreamReader(fis2));
+	    
+	    int totalcount1=0;
+		int totalcount2=0;
+		
+	    String g=br2.readLine();
+		while(g!=null){
+			
+			stopwords.add(g);
+			g=br2.readLine();
+			
+		}
+		//stopwords.add(g);
+		fis2.close();
+		
+		String u=br.readLine();
+		while(u!=null){
+			StringTokenizer st1=new StringTokenizer(u);
+			while(st1.hasMoreTokens()){
+				String r=st1.nextToken();
+				if(!uniqueWords.contains(r))
+					uniqueWords.add(r);
+			}
+			u=br.readLine();
+		}
+		fis1.close();
+	/*	for(String s: stopwords){
+			System.out.println(s);
+		}
+		for(String h:uniqueWords){
+			System.out.println(h);
+		}*/
+		fis1=new FileInputStream(f1);
+		br1=new BufferedReader(new InputStreamReader(fis1));
+		String j=br1.readLine();
+		while(j!=null){
+			
+			StringTokenizer st=new StringTokenizer(j);
+			
+			int category=Integer.parseInt(st.nextToken());
+			System.out.print("category:"+category);
+			while(st.hasMoreTokens()){
+				String temp=st.nextToken();
+				if(category==1){
+				if(h1.containsKey(temp)){
+					int count=h1.get(temp);
+					h1.put(temp, count+1);
+					totalcount1++;
+				}else{
+					h1.put(temp, 1);
+					totalcount1++;
+				 }
+				}else if(category==0){
+				if(h2.containsKey(temp)){
+					int count=h2.get(temp);
+					h2.put(temp, count+1);
+					totalcount2++;
+				}else{
+					h2.put(temp, 1);
+					totalcount2++;
+				}
+				}
+				//temp=st.nextToken();
+			}
+			j=br1.readLine();
+		}
+		
+		System.out.println(h1.entrySet());
+		System.out.println();
+		System.out.println(h2.entrySet());
+		System.out.print("Total count for 1:" + totalcount1);
+		System.out.println("Total count for 2:"+ totalcount2);
+		
+		//int termcount1[]=new int[uniqueWords.size()];
+		//int termcount2[]=new int[uniqueWords.size()];
+	/*	HashMap<String,Float>probin1=new HashMap<String,Float>();
+		HashMap<String,Float>probin2=new HashMap<String,Float>();
+		
+		int y=0;
+		while(y<uniqueWords.size()){
+			if(h1.containsKey(uniqueWords.get(y))){
+				float t=(float)h1.get(uniqueWords.get(y))/totalcount1;
+				probin1.put(uniqueWords.get(y),t);
+			}
+			if(h2.containsKey(uniqueWords.get(y))){
+				float t=(float)h2.get(uniqueWords.get(y))/totalcount2;
+				probin2.put(uniqueWords.get(y),t);
+			}
+			y++;
+		}
+	*/
+		
+		float prob1[]=new float[uniqueWords.size()];
+		float prob2[]=new float[uniqueWords.size()];
+		
+		for(int i=0;i<uniqueWords.size();i++){
+			String q=uniqueWords.get(i);
+			if(h1.containsKey(q)){
+				prob1[i]=(float)h1.get(uniqueWords.get(i))/totalcount1;
+			}
+			if(h2.containsKey(q)){
+				prob2[i]=(float)h2.get(uniqueWords.get(i))/totalcount2;
+			}
+			
+		}
+		/*
+		 
+		  
+		  
+		 * 
+		 */
+		//System.out.println(probin1.entrySet());
+	//	System.out.println(probin2.entrySet());
+		float e=1,f=1;
+		for(int i=0;i<uniqueWords.size();i++){
+			if(prob1[i]!=0){
+				e*=prob1[i];
+			}
+		}
+		
+		for(int i=0;i<uniqueWords.size();i++){
+			if(prob2[i]!=0){
+				f*=prob2[i];
+			}
+		}
+		
+		System.out.println("e:"+e);
+		System.out.println("f:"+f);
+		
+		fis1.close();
+		fis2.close();
+		
+		
+	}
+	
+}

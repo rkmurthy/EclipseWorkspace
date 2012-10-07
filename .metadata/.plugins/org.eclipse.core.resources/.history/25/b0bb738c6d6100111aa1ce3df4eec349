@@ -1,0 +1,23 @@
+package myJavaProgs;
+import java.io.*;
+public class HexToDecimal {
+
+	public static void main(String args[])throws IOException{
+		
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("Enter number in hex");
+		
+		String s=br.readLine();
+		
+		int decimal=Integer.parseInt(s,16);
+		
+		int binary=Integer.parseInt(s,2);
+		
+		System.out.println(binary);
+		
+	/*	int result=Integer.parseInt(s,16);
+		
+		System.out.println("Number in decimal:"+result);*/
+	}
+}

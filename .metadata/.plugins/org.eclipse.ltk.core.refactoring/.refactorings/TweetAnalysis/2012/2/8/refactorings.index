@@ -1,0 +1,36 @@
+1330058442584	Rename compilation unit 'Second.java'
+1330058490143	Rename compilation unit 'Third.java'
+1330058538403	Rename compilation unit 'Fourth.java'
+1330060709728	Rename resource 'doc.xml'
+1330060717088	Delete element
+1330060745645	Rename resource 'doc'
+1330101655529	Delete element
+1330102103069	Delete elements
+1330102113775	Delete element
+1330102217009	Delete element
+1330102242067	Rename package 'account'
+1330102435290	Rename package 'async'
+1330102525654	Delete element
+1330102618152	Rename package 'block'
+1330102642816	Rename package 'directmessage'
+1330102696561	Rename package 'favorite'
+1330102731630	Rename package 'friendsandfollowers'
+1330102775067	Rename package 'friendship'
+1330102828246	Rename package 'geo'
+1330102863681	Rename package 'help'
+1330102887646	Rename package 'json'
+1330102967664	Rename package 'legal'
+1330102997918	Rename package 'list'
+1330103018146	Rename package 'listmembers'
+1330103043925	Rename package 'listsubscribers'
+1330103068978	Rename package 'media'
+1330103090692	Rename package 'notification'
+1330103110289	Rename package 'oauth'
+1330103133576	Rename package 'savedsearches'
+1330103161466	Rename package 'search'
+1330103188468	Rename package 'spamreporting'
+1330103214588	Rename package 'stream'
+1330103236415	Rename package 'timeline'
+1330103265367	Rename package 'trends'
+1330103289030	Rename package 'tweets'
+1330103360585	Rename package 'user'

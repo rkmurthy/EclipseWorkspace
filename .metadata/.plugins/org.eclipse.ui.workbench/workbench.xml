@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="35" version="2.0">
+<workbenchAdvisor/>
+<window height="814" maximized="true" width="1421" x="0" y="22">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="106" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="70" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="UserSeparator" itemType="typeSeparator"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="120" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1327768925259" focus="true" label="Workspace - Java EE">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
+<part id="41"/>
+<part id="42"/>
+<part id="43"/>
+<part id="44"/>
+<part id="45"/>
+<part id="46"/>
+<part id="47"/>
+<part id="48"/>
+<part id="49"/>
+<part id="50"/>
+<part id="51"/>
+<part id="52"/>
+<part id="53"/>
+<part id="54"/>
+<part id="55"/>
+<part id="56"/>
+<part id="57"/>
+<part id="58"/>
+<part id="59"/>
+<part id="60"/>
+<part id="61"/>
+<part id="62"/>
+<part id="63"/>
+<part id="64"/>
+<part id="65"/>
+<part id="66"/>
+<part id="67"/>
+<part id="68"/>
+<part id="69"/>
+<part id="70"/>
+<part id="71"/>
+<part id="72"/>
+<part id="73"/>
+<part id="74"/>
+<part id="75"/>
+<part id="76"/>
+<part id="77"/>
+<part id="78"/>
+<part id="79"/>
+<part id="80"/>
+<part id="81"/>
+<part id="82"/>
+<part id="83"/>
+<part id="84"/>
+<part id="85"/>
+<part id="86"/>
+<part id="87"/>
+<part id="88"/>
+<part id="89"/>
+<part id="90"/>
+<part id="91"/>
+<part id="92"/>
+<part id="93"/>
+<part id="94"/>
+<part id="95"/>
+<part id="96"/>
+<part id="97"/>
+<part id="98"/>
+<part id="99"/>
+<part id="100"/>
+<part id="101"/>
+<part id="102"/>
+<part id="103"/>
+<part id="104"/>
+<part id="105"/>
+<part id="106"/>
+<part id="107"/>
+<part id="108"/>
+<part id="109"/>
+<part id="110"/>
+<part id="111"/>
+<part id="112"/>
+<part id="113"/>
+<part id="114"/>
+<part id="115"/>
+<part id="116"/>
+<part id="117"/>
+<part id="118"/>
+<part id="119"/>
+<part id="120"/>
+<part id="121"/>
+<part id="122"/>
+<part id="123"/>
+<part id="124"/>
+<part id="125"/>
+<part id="126"/>
+<part id="127"/>
+<part id="128"/>
+<part id="129"/>
+<part id="130"/>
+<part id="131"/>
+<part id="132"/>
+<part id="133"/>
+<part id="134"/>
+<part id="135"/>
+<part id="136"/>
+<part id="137"/>
+<part id="138"/>
+<part id="139"/>
+<part id="140"/>
+<part id="141"/>
+<part id="142"/>
+<part id="143"/>
+<part id="144"/>
+<part id="145"/>
+<part id="146"/>
+<part id="147"/>
+<part id="148"/>
+<part id="149"/>
+<part id="150"/>
+<part id="151"/>
+<part id="152"/>
+<part id="153"/>
+<part id="154"/>
+<part id="155"/>
+<part id="156"/>
+<part id="157"/>
+<part id="158"/>
+<part id="159"/>
+<part id="160"/>
+<part id="161"/>
+<part id="162"/>
+<part id="163"/>
+<part id="164"/>
+<part id="165"/>
+<part id="166"/>
+<part id="167"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="test.html" partName="test.html" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/test.html" title="test.html" tooltip="InterviewQuestions/test.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/test.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="249" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InsertinginaSortedList.java" partName="InsertinginaSortedList.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/InsertinginaSortedList.java" title="InsertinginaSortedList.java" tooltip="InterviewQuestions/src/InsertinginaSortedList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/InsertinginaSortedList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="682" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedListImplementation.java" partName="LinkedListImplementation.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/LinkedListImplementation.java" title="LinkedListImplementation.java" tooltip="InterviewQuestions/src/LinkedListImplementation.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/LinkedListImplementation.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="515" selectionTopPixel="85"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InsSort.java" partName="InsSort.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/sortingmethods/InsSort.java" title="InsSort.java" tooltip="InterviewQuestions/src/sortingmethods/InsSort.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/sortingmethods/InsSort.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="31" selectionOffset="653" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BFS.java" partName="BFS.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/BFS.java" title="BFS.java" tooltip="InterviewQuestions/src/myJavaProgs/BFS.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/BFS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="323" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BST.java" partName="BST.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/BST.java" title="BST.java" tooltip="InterviewQuestions/src/myJavaProgs/BST.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/BST.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4008" selectionTopPixel="2476"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MaxCount.java" partName="MaxCount.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/MaxCount.java" title="MaxCount.java" tooltip="InterviewQuestions/src/MaxCount.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/MaxCount.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BFSandDFS.java" partName="BFSandDFS.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/BFSandDFS.java" title="BFSandDFS.java" tooltip="InterviewQuestions/src/myJavaProgs/BFSandDFS.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/BFSandDFS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1476" selectionTopPixel="466"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BST.java" partName="BST.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/sortingmethods/BST.java" title="BST.java" tooltip="InterviewQuestions/src/sortingmethods/BST.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/sortingmethods/BST.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="186"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SetIntersection.java" partName="SetIntersection.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/SetIntersection.java" title="SetIntersection.java" tooltip="InterviewQuestions/src/myJavaProgs/SetIntersection.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/SetIntersection.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1393" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkSiblings.java" partName="LinkSiblings.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/LinkSiblings.java" title="LinkSiblings.java" tooltip="InterviewQuestions/src/myJavaProgs/LinkSiblings.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/LinkSiblings.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="442" selectionTopPixel="245"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="LinkedList.class" partName="LinkedList.class" title="LinkedList.class" tooltip="java.util.LinkedList" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=InterviewQuestions/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.util(LinkedList.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyQueue.java" partName="MyQueue.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/MyQueue.java" title="MyQueue.java" tooltip="InterviewQuestions/src/myJavaProgs/MyQueue.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/MyQueue.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="163" selectionTopPixel="26"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Parentheses.java" partName="Parentheses.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/sortingmethods/Parentheses.java" title="Parentheses.java" tooltip="InterviewQuestions/src/sortingmethods/Parentheses.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/sortingmethods/Parentheses.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="466" selectionTopPixel="131"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SetofStacks.java" partName="SetofStacks.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/SetofStacks.java" title="SetofStacks.java" tooltip="InterviewQuestions/src/SetofStacks.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/SetofStacks.java"/>
+<editorState selectionHorizontalPixel="140" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Brackets.java" partName="Brackets.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/Brackets.java" title="Brackets.java" tooltip="InterviewQuestions/src/myJavaProgs/Brackets.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/Brackets.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="964" selectionTopPixel="87"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReverseList.java" partName="ReverseList.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/ReverseList.java" title="ReverseList.java" tooltip="InterviewQuestions/src/ReverseList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/ReverseList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="408" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DoublyLinkedList.java" partName="DoublyLinkedList.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/DoublyLinkedList.java" title="DoublyLinkedList.java" tooltip="InterviewQuestions/src/myJavaProgs/DoublyLinkedList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/DoublyLinkedList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1292" selectionTopPixel="713"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringPermutations.java" partName="StringPermutations.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/StringPermutations.java" title="StringPermutations.java" tooltip="InterviewQuestions/src/myJavaProgs/StringPermutations.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/StringPermutations.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1032" selectionTopPixel="49"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringPerms.java" partName="StringPerms.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/StringPerms.java" title="StringPerms.java" tooltip="InterviewQuestions/src/myJavaProgs/StringPerms.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/StringPerms.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="500" selectionTopPixel="206"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HashImpl.java" partName="HashImpl.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/sortingmethods/HashImpl.java" title="HashImpl.java" tooltip="InterviewQuestions/src/sortingmethods/HashImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/sortingmethods/HashImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="748" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="nqueens.java" partName="nqueens.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/nqueens.java" title="nqueens.java" tooltip="InterviewQuestions/src/nqueens.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/nqueens.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="733" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShuffleArray.java" partName="ShuffleArray.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/ShuffleArray.java" title="ShuffleArray.java" tooltip="InterviewQuestions/src/myJavaProgs/ShuffleArray.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/ShuffleArray.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="243" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LongestPalindromeSubSequence.java" partName="LongestPalindromeSubSequence.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/LongestPalindromeSubSequence.java" title="LongestPalindromeSubSequence.java" tooltip="InterviewQuestions/src/myJavaProgs/LongestPalindromeSubSequence.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/LongestPalindromeSubSequence.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="612" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LongestCommonSubstring.java" partName="LongestCommonSubstring.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/LongestCommonSubstring.java" title="LongestCommonSubstring.java" tooltip="InterviewQuestions/src/myJavaProgs/LongestCommonSubstring.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/LongestCommonSubstring.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1012" selectionTopPixel="379"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FirstExample.java" partName="FirstExample.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/myProgs/FirstExample.java" title="FirstExample.java" tooltip="TweetAnalysis/src/myProgs/FirstExample.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/myProgs/FirstExample.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="442" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Api.class" partName="Api.class" title="Api.class" tooltip="net.unto.twitter.Api" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=TweetAnalysis/\/Users\/ramasubramaniankrishnamurthy\/Downloads\/java-twitter-0.9-SNAPSHOT.jar&lt;net.unto.twitter(Api.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReplaceSpace.java" partName="ReplaceSpace.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/ReplaceSpace.java" title="ReplaceSpace.java" tooltip="InterviewQuestions/src/myJavaProgs/ReplaceSpace.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/ReplaceSpace.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="530" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SearchResults.java" partName="SearchResults.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/myProgs/SearchResults.java" title="SearchResults.java" tooltip="TweetAnalysis/src/myProgs/SearchResults.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/myProgs/SearchResults.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="20" selectionTopPixel="87"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Result.java" partName="Result.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/myProgs/Result.java" title="Result.java" tooltip="TweetAnalysis/src/myProgs/Result.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/myProgs/Result.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="523" selectionTopPixel="117"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DateAdapter.java" partName="DateAdapter.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/myProgs/DateAdapter.java" title="DateAdapter.java" tooltip="TweetAnalysis/src/myProgs/DateAdapter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/myProgs/DateAdapter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="20" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="jaxb.properties" partName="jaxb.properties" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/myProgs/jaxb.properties" title="jaxb.properties" tooltip="TweetAnalysis/src/myProgs/jaxb.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/myProgs/jaxb.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="78" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customer.java" partName="Customer.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/myProgs/Customer.java" title="Customer.java" tooltip="TweetAnalysis/src/myProgs/Customer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/myProgs/Customer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="563" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Address.java" partName="Address.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/myProgs/Address.java" title="Address.java" tooltip="TweetAnalysis/src/myProgs/Address.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/myProgs/Address.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="208" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PhoneNumber.java" partName="PhoneNumber.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/myProgs/PhoneNumber.java" title="PhoneNumber.java" tooltip="TweetAnalysis/src/myProgs/PhoneNumber.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/myProgs/PhoneNumber.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="365" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnmarshalDemo.java" partName="UnmarshalDemo.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/myProgs/UnmarshalDemo.java" title="UnmarshalDemo.java" tooltip="TweetAnalysis/src/myProgs/UnmarshalDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/myProgs/UnmarshalDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1271" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="doc.xml" partName="doc.xml" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/myProgs/doc.xml" title="doc.xml" tooltip="TweetAnalysis/src/myProgs/doc.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/myProgs/doc.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="301" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AsyncUpdate.java" partName="AsyncUpdate.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/async/AsyncUpdate.java" title="AsyncUpdate.java" tooltip="TweetAnalysis/src/twitter4j/examples/async/AsyncUpdate.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/async/AsyncUpdate.java"/>
+<editorState selectionHorizontalPixel="35" selectionLength="0" selectionOffset="834" selectionTopPixel="362"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CreateBlock.java" partName="CreateBlock.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/block/CreateBlock.java" title="CreateBlock.java" tooltip="TweetAnalysis/src/twitter4j/examples/block/CreateBlock.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/block/CreateBlock.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1070" selectionTopPixel="45"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DestroyDirectMessage.java" partName="DestroyDirectMessage.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/directmessage/DestroyDirectMessage.java" title="DestroyDirectMessage.java" tooltip="TweetAnalysis/src/twitter4j/examples/directmessage/DestroyDirectMessage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/directmessage/DestroyDirectMessage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="32" selectionOffset="609" selectionTopPixel="45"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CreateFavorite.java" partName="CreateFavorite.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/favorite/CreateFavorite.java" title="CreateFavorite.java" tooltip="TweetAnalysis/src/twitter4j/examples/favorite/CreateFavorite.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/favorite/CreateFavorite.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="27" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetFollowersIDs.java" partName="GetFollowersIDs.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/friendsandfollowers/GetFollowersIDs.java" title="GetFollowersIDs.java" tooltip="TweetAnalysis/src/twitter4j/examples/friendsandfollowers/GetFollowersIDs.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/friendsandfollowers/GetFollowersIDs.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="38" selectionOffset="609" selectionTopPixel="142"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CreateFriendship.java" partName="CreateFriendship.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/friendship/CreateFriendship.java" title="CreateFriendship.java" tooltip="TweetAnalysis/src/twitter4j/examples/friendship/CreateFriendship.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/friendship/CreateFriendship.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="29" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CreatePlace.java" partName="CreatePlace.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/geo/CreatePlace.java" title="CreatePlace.java" tooltip="TweetAnalysis/src/twitter4j/examples/geo/CreatePlace.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/geo/CreatePlace.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="22" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" partName="Test.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/help/Test.java" title="Test.java" tooltip="TweetAnalysis/src/twitter4j/examples/help/Test.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/help/Test.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="23" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoadRawJSON.java" partName="LoadRawJSON.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/json/LoadRawJSON.java" title="LoadRawJSON.java" tooltip="TweetAnalysis/src/twitter4j/examples/json/LoadRawJSON.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/json/LoadRawJSON.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1461" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPrivacyPolicy.java" partName="GetPrivacyPolicy.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/legal/GetPrivacyPolicy.java" title="GetPrivacyPolicy.java" tooltip="TweetAnalysis/src/twitter4j/examples/legal/GetPrivacyPolicy.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/legal/GetPrivacyPolicy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CreateUserList.java" partName="CreateUserList.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/list/CreateUserList.java" title="CreateUserList.java" tooltip="TweetAnalysis/src/twitter4j/examples/list/CreateUserList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/list/CreateUserList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="1548" selectionTopPixel="96"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddUserListMember.java" partName="AddUserListMember.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/listmembers/AddUserListMember.java" title="AddUserListMember.java" tooltip="TweetAnalysis/src/twitter4j/examples/listmembers/AddUserListMember.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/listmembers/AddUserListMember.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="30" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CreateUserListSubscription.java" partName="CreateUserListSubscription.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/listsubscribers/CreateUserListSubscription.java" title="CreateUserListSubscription.java" tooltip="TweetAnalysis/src/twitter4j/examples/listsubscribers/CreateUserListSubscription.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/listsubscribers/CreateUserListSubscription.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="34" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImgLyImageUpload.java" partName="ImgLyImageUpload.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/media/ImgLyImageUpload.java" title="ImgLyImageUpload.java" tooltip="TweetAnalysis/src/twitter4j/examples/media/ImgLyImageUpload.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/media/ImgLyImageUpload.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DisableNotification.java" partName="DisableNotification.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/notification/DisableNotification.java" title="DisableNotification.java" tooltip="TweetAnalysis/src/twitter4j/examples/notification/DisableNotification.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/notification/DisableNotification.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="31" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetAccessToken.java" partName="GetAccessToken.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/oauth/GetAccessToken.java" title="GetAccessToken.java" tooltip="TweetAnalysis/src/twitter4j/examples/oauth/GetAccessToken.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/oauth/GetAccessToken.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1811" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CreateSavedSearch.java" partName="CreateSavedSearch.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/savedsearches/CreateSavedSearch.java" title="CreateSavedSearch.java" tooltip="TweetAnalysis/src/twitter4j/examples/savedsearches/CreateSavedSearch.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/savedsearches/CreateSavedSearch.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="32" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SearchTweets.java" partName="SearchTweets.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/search/SearchTweets.java" title="SearchTweets.java" tooltip="TweetAnalysis/src/twitter4j/examples/search/SearchTweets.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/search/SearchTweets.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="635" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReportSpam.java" partName="ReportSpam.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/spamreporting/ReportSpam.java" title="ReportSpam.java" tooltip="TweetAnalysis/src/twitter4j/examples/spamreporting/ReportSpam.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/spamreporting/ReportSpam.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="32" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintFilterStream.java" partName="PrintFilterStream.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/stream/PrintFilterStream.java" title="PrintFilterStream.java" tooltip="TweetAnalysis/src/twitter4j/examples/stream/PrintFilterStream.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/stream/PrintFilterStream.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1744" selectionTopPixel="805"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetFriendsTimeline.java" partName="GetFriendsTimeline.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/timeline/GetFriendsTimeline.java" title="GetFriendsTimeline.java" tooltip="TweetAnalysis/src/twitter4j/examples/timeline/GetFriendsTimeline.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/timeline/GetFriendsTimeline.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="27" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetAvailableTrends.java" partName="GetAvailableTrends.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/trends/GetAvailableTrends.java" title="GetAvailableTrends.java" tooltip="TweetAnalysis/src/twitter4j/examples/trends/GetAvailableTrends.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/trends/GetAvailableTrends.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="25" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DestroyStatus.java" partName="DestroyStatus.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/tweets/DestroyStatus.java" title="DestroyStatus.java" tooltip="TweetAnalysis/src/twitter4j/examples/tweets/DestroyStatus.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/tweets/DestroyStatus.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="25" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetMemberSuggestions.java" partName="GetMemberSuggestions.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/user/GetMemberSuggestions.java" title="GetMemberSuggestions.java" tooltip="TweetAnalysis/src/twitter4j/examples/user/GetMemberSuggestions.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/user/GetMemberSuggestions.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1885" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetFriendsIDs.java" partName="GetFriendsIDs.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/friendsandfollowers/GetFriendsIDs.java" title="GetFriendsIDs.java" tooltip="TweetAnalysis/src/twitter4j/examples/friendsandfollowers/GetFriendsIDs.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/friendsandfollowers/GetFriendsIDs.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="142"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetDirectMessages.java" partName="GetDirectMessages.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/directmessage/GetDirectMessages.java" title="GetDirectMessages.java" tooltip="TweetAnalysis/src/twitter4j/examples/directmessage/GetDirectMessages.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/directmessage/GetDirectMessages.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1757" selectionTopPixel="120"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetSentDirectMessages.java" partName="GetSentDirectMessages.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/directmessage/GetSentDirectMessages.java" title="GetSentDirectMessages.java" tooltip="TweetAnalysis/src/twitter4j/examples/directmessage/GetSentDirectMessages.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/directmessage/GetSentDirectMessages.java"/>
+<editorState selectionHorizontalPixel="37" selectionLength="0" selectionOffset="1744" selectionTopPixel="120"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SendDirectMessage.java" partName="SendDirectMessage.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/directmessage/SendDirectMessage.java" title="SendDirectMessage.java" tooltip="TweetAnalysis/src/twitter4j/examples/directmessage/SendDirectMessage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/directmessage/SendDirectMessage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="255"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SortedStack.java" partName="SortedStack.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/SortedStack.java" title="SortedStack.java" tooltip="InterviewQuestions/src/myJavaProgs/SortedStack.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/SortedStack.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="671" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StackwithMin.java" partName="StackwithMin.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/StackwithMin.java" title="StackwithMin.java" tooltip="InterviewQuestions/src/myJavaProgs/StackwithMin.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/StackwithMin.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="445" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IndexBuilder.java" partName="IndexBuilder.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/IR/src/IndexBuilder.java" title="IndexBuilder.java" tooltip="IR/src/IndexBuilder.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IR/src/IndexBuilder.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1817" selectionTopPixel="494"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InvertedIndex.java" partName="InvertedIndex.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/IR/src/InvertedIndex.java" title="InvertedIndex.java" tooltip="IR/src/InvertedIndex.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IR/src/InvertedIndex.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="808" selectionTopPixel="272"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PostingListNode.java" partName="PostingListNode.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/IR/src/PostingListNode.java" title="PostingListNode.java" tooltip="IR/src/PostingListNode.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IR/src/PostingListNode.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="301" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TermFrequency.java" partName="TermFrequency.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/IR/src/TermFrequency.java" title="TermFrequency.java" tooltip="IR/src/TermFrequency.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IR/src/TermFrequency.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="313" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Document.java" partName="Document.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/IR/src/Document.java" title="Document.java" tooltip="IR/src/Document.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IR/src/Document.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="580" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pa4.java" partName="Pa4.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/IR/src/Pa4.java" title="Pa4.java" tooltip="IR/src/Pa4.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IR/src/Pa4.java"/>
+<editorState selectionHorizontalPixel="42" selectionLength="0" selectionOffset="485" selectionTopPixel="215"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Captions" partName="Captions" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/IR/Captions" title="Captions" tooltip="IR/Captions" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IR/Captions"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="648" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InvIndex.java" partName="InvIndex.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/IR/src/InvIndex.java" title="InvIndex.java" tooltip="IR/src/InvIndex.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IR/src/InvIndex.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="307" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetRateLimitStatus.java" partName="GetRateLimitStatus.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/account/GetRateLimitStatus.java" title="GetRateLimitStatus.java" tooltip="TweetAnalysis/src/twitter4j/examples/account/GetRateLimitStatus.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/account/GetRateLimitStatus.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="998" selectionTopPixel="246"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VerifyCredentials.java" partName="VerifyCredentials.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/account/VerifyCredentials.java" title="VerifyCredentials.java" tooltip="TweetAnalysis/src/twitter4j/examples/account/VerifyCredentials.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/account/VerifyCredentials.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="991" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UpdateProfile.java" partName="UpdateProfile.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/account/UpdateProfile.java" title="UpdateProfile.java" tooltip="TweetAnalysis/src/twitter4j/examples/account/UpdateProfile.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/account/UpdateProfile.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="756" selectionTopPixel="246"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UpdateProfileBackgroundImage.java" partName="UpdateProfileBackgroundImage.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/account/UpdateProfileBackgroundImage.java" title="UpdateProfileBackgroundImage.java" tooltip="TweetAnalysis/src/twitter4j/examples/account/UpdateProfileBackgroundImage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/account/UpdateProfileBackgroundImage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="295"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UpdateProfileColors.java" partName="UpdateProfileColors.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/account/UpdateProfileColors.java" title="UpdateProfileColors.java" tooltip="TweetAnalysis/src/twitter4j/examples/account/UpdateProfileColors.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/account/UpdateProfileColors.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1704" selectionTopPixel="66"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowDirectMessage.java" partName="ShowDirectMessage.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/directmessage/ShowDirectMessage.java" title="ShowDirectMessage.java" tooltip="TweetAnalysis/src/twitter4j/examples/directmessage/ShowDirectMessage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/directmessage/ShowDirectMessage.java"/>
+<editorState selectionHorizontalPixel="26" selectionLength="0" selectionOffset="3" selectionTopPixel="60"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetAccountSettings.java" partName="GetAccountSettings.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/account/GetAccountSettings.java" title="GetAccountSettings.java" tooltip="TweetAnalysis/src/twitter4j/examples/account/GetAccountSettings.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/account/GetAccountSettings.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1186" selectionTopPixel="306"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetAccountTotals.java" partName="GetAccountTotals.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/account/GetAccountTotals.java" title="GetAccountTotals.java" tooltip="TweetAnalysis/src/twitter4j/examples/account/GetAccountTotals.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/account/GetAccountTotals.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="231"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UpdateProfileImage.java" partName="UpdateProfileImage.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/account/UpdateProfileImage.java" title="UpdateProfileImage.java" tooltip="TweetAnalysis/src/twitter4j/examples/account/UpdateProfileImage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/account/UpdateProfileImage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="600" selectionTopPixel="246"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DestroyBlock.java" partName="DestroyBlock.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/block/DestroyBlock.java" title="DestroyBlock.java" tooltip="TweetAnalysis/src/twitter4j/examples/block/DestroyBlock.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/block/DestroyBlock.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="45"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExistsBlock.java" partName="ExistsBlock.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/block/ExistsBlock.java" title="ExistsBlock.java" tooltip="TweetAnalysis/src/twitter4j/examples/block/ExistsBlock.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/block/ExistsBlock.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="30"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetBlockingUsers.java" partName="GetBlockingUsers.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/block/GetBlockingUsers.java" title="GetBlockingUsers.java" tooltip="TweetAnalysis/src/twitter4j/examples/block/GetBlockingUsers.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/block/GetBlockingUsers.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetBlockingUsersIDs.java" partName="GetBlockingUsersIDs.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/block/GetBlockingUsersIDs.java" title="GetBlockingUsersIDs.java" tooltip="TweetAnalysis/src/twitter4j/examples/block/GetBlockingUsersIDs.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/block/GetBlockingUsersIDs.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InvertedIndex.java" partName="InvertedIndex.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/EECS485/src/myProgs/InvertedIndex.java" title="InvertedIndex.java" tooltip="EECS485/src/myProgs/InvertedIndex.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EECS485/src/myProgs/InvertedIndex.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="663" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Document.java" partName="Document.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/EECS485/src/myProgs/Document.java" title="Document.java" tooltip="EECS485/src/myProgs/Document.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EECS485/src/myProgs/Document.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="154" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PA4.java" partName="PA4.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/EECS485/src/myProgs/PA4.java" title="PA4.java" tooltip="EECS485/src/myProgs/PA4.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EECS485/src/myProgs/PA4.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="505" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Captions" partName="Captions" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/EECS485/Captions" title="Captions" tooltip="EECS485/Captions" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EECS485/Captions"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5370" selectionTopPixel="2550"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LongestPalindrome.java" partName="LongestPalindrome.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/LongestPalindrome.java" title="LongestPalindrome.java" tooltip="InterviewQuestions/src/myJavaProgs/LongestPalindrome.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/LongestPalindrome.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="733" selectionTopPixel="105"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MostFrequentWords.java" partName="MostFrequentWords.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/MostFrequentWords.java" title="MostFrequentWords.java" tooltip="InterviewQuestions/src/myJavaProgs/MostFrequentWords.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/MostFrequentWords.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="792" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Text.txt" partName="Text.txt" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/Text.txt" title="Text.txt" tooltip="InterviewQuestions/Text.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/Text.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="148" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MinStack.java" partName="MinStack.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/MinStack.java" title="MinStack.java" tooltip="InterviewQuestions/src/myJavaProgs/MinStack.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/MinStack.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="339" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HexToDecimal.java" partName="HexToDecimal.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/HexToDecimal.java" title="HexToDecimal.java" tooltip="InterviewQuestions/src/myJavaProgs/HexToDecimal.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/HexToDecimal.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="451" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HexToI.java" partName="HexToI.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/HexToI.java" title="HexToI.java" tooltip="InterviewQuestions/src/myJavaProgs/HexToI.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/HexToI.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="832" selectionTopPixel="76"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MAInterview.java" partName="MAInterview.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/MAInterview.java" title="MAInterview.java" tooltip="InterviewQuestions/src/myJavaProgs/MAInterview.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/MAInterview.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="362" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SearchUsers.java" partName="SearchUsers.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/user/SearchUsers.java" title="SearchUsers.java" tooltip="TweetAnalysis/src/twitter4j/examples/user/SearchUsers.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/user/SearchUsers.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2392" selectionTopPixel="250"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetUserSuggestions.java" partName="GetUserSuggestions.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/user/GetUserSuggestions.java" title="GetUserSuggestions.java" tooltip="TweetAnalysis/src/twitter4j/examples/user/GetUserSuggestions.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/user/GetUserSuggestions.java"/>
+<editorState selectionHorizontalPixel="37" selectionLength="0" selectionOffset="1877" selectionTopPixel="149"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LookupUsers.java" partName="LookupUsers.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/user/LookupUsers.java" title="LookupUsers.java" tooltip="TweetAnalysis/src/twitter4j/examples/user/LookupUsers.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/user/LookupUsers.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="65" selectionOffset="1449" selectionTopPixel="14"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowUser.java" partName="ShowUser.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/user/ShowUser.java" title="ShowUser.java" tooltip="TweetAnalysis/src/twitter4j/examples/user/ShowUser.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/user/ShowUser.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="964" selectionTopPixel="36"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetSuggestedUserCategories.java" partName="GetSuggestedUserCategories.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/user/GetSuggestedUserCategories.java" title="GetSuggestedUserCategories.java" tooltip="TweetAnalysis/src/twitter4j/examples/user/GetSuggestedUserCategories.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/user/GetSuggestedUserCategories.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="250"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetProfileImage.java" partName="GetProfileImage.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/user/GetProfileImage.java" title="GetProfileImage.java" tooltip="TweetAnalysis/src/twitter4j/examples/user/GetProfileImage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/user/GetProfileImage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IteratorExample.java" partName="IteratorExample.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/IteratorExample.java" title="IteratorExample.java" tooltip="InterviewQuestions/src/myJavaProgs/IteratorExample.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/IteratorExample.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="274" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="subsets.java" partName="subsets.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/subsets.java" title="subsets.java" tooltip="InterviewQuestions/src/myJavaProgs/subsets.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/subsets.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="453" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SubsetsofSizeK.java" partName="SubsetsofSizeK.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/SubsetsofSizeK.java" title="SubsetsofSizeK.java" tooltip="InterviewQuestions/src/myJavaProgs/SubsetsofSizeK.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/SubsetsofSizeK.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Count1s.java" partName="Count1s.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/Count1s.java" title="Count1s.java" tooltip="InterviewQuestions/src/myJavaProgs/Count1s.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/Count1s.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="578" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReverseWords.java" partName="ReverseWords.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/ReverseWords.java" title="ReverseWords.java" tooltip="InterviewQuestions/src/myJavaProgs/ReverseWords.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/ReverseWords.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="553" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetGeoDetails.java" partName="GetGeoDetails.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/geo/GetGeoDetails.java" title="GetGeoDetails.java" tooltip="TweetAnalysis/src/twitter4j/examples/geo/GetGeoDetails.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/geo/GetGeoDetails.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="325"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetSimilarPlaces.java" partName="GetSimilarPlaces.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/geo/GetSimilarPlaces.java" title="GetSimilarPlaces.java" tooltip="TweetAnalysis/src/twitter4j/examples/geo/GetSimilarPlaces.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/geo/GetSimilarPlaces.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1218" selectionTopPixel="40"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SearchPlaces.java" partName="SearchPlaces.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/geo/SearchPlaces.java" title="SearchPlaces.java" tooltip="TweetAnalysis/src/twitter4j/examples/geo/SearchPlaces.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/geo/SearchPlaces.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2379" selectionTopPixel="321"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SaveRawJSON.java" partName="SaveRawJSON.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/json/SaveRawJSON.java" title="SaveRawJSON.java" tooltip="TweetAnalysis/src/twitter4j/examples/json/SaveRawJSON.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/json/SaveRawJSON.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2988" selectionTopPixel="562"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetTermsOfService.java" partName="GetTermsOfService.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/legal/GetTermsOfService.java" title="GetTermsOfService.java" tooltip="TweetAnalysis/src/twitter4j/examples/legal/GetTermsOfService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/legal/GetTermsOfService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DestroyUserList.java" partName="DestroyUserList.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/list/DestroyUserList.java" title="DestroyUserList.java" tooltip="TweetAnalysis/src/twitter4j/examples/list/DestroyUserList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/list/DestroyUserList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetAllUserLists.java" partName="GetAllUserLists.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/list/GetAllUserLists.java" title="GetAllUserLists.java" tooltip="TweetAnalysis/src/twitter4j/examples/list/GetAllUserLists.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/list/GetAllUserLists.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UpdateUserList.java" partName="UpdateUserList.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/list/UpdateUserList.java" title="UpdateUserList.java" tooltip="TweetAnalysis/src/twitter4j/examples/list/UpdateUserList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/list/UpdateUserList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1045" selectionTopPixel="36"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetUserListStatuses.java" partName="GetUserListStatuses.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/list/GetUserListStatuses.java" title="GetUserListStatuses.java" tooltip="TweetAnalysis/src/twitter4j/examples/list/GetUserListStatuses.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/list/GetUserListStatuses.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="975" selectionTopPixel="370"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetUserListSubscriptions.java" partName="GetUserListSubscriptions.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/list/GetUserListSubscriptions.java" title="GetUserListSubscriptions.java" tooltip="TweetAnalysis/src/twitter4j/examples/list/GetUserListSubscriptions.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/list/GetUserListSubscriptions.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1315" selectionTopPixel="141"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintFirehoseStream.java" partName="PrintFirehoseStream.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/stream/PrintFirehoseStream.java" title="PrintFirehoseStream.java" tooltip="TweetAnalysis/src/twitter4j/examples/stream/PrintFirehoseStream.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/stream/PrintFirehoseStream.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1440" selectionTopPixel="175"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintLinksStream.java" partName="PrintLinksStream.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/stream/PrintLinksStream.java" title="PrintLinksStream.java" tooltip="TweetAnalysis/src/twitter4j/examples/stream/PrintLinksStream.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/stream/PrintLinksStream.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1489" selectionTopPixel="175"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintRetweetStream.java" partName="PrintRetweetStream.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/stream/PrintRetweetStream.java" title="PrintRetweetStream.java" tooltip="TweetAnalysis/src/twitter4j/examples/stream/PrintRetweetStream.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/stream/PrintRetweetStream.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1463" selectionTopPixel="175"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="TwitterBaseImpl.class" partName="TwitterBaseImpl.class" title="TwitterBaseImpl.class" tooltip="twitter4j.TwitterBaseImpl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=TweetAnalysis/\/Users\/ramasubramaniankrishnamurthy\/Desktop\/EclipseWorkspace\/twitter4j-2-1\/lib\/twitter4j-core-2.2.5.jar&lt;twitter4j(TwitterBaseImpl.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="twitter4j.properties" partName="twitter4j.properties" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/twitter4j.properties" title="twitter4j.properties" tooltip="TweetAnalysis/twitter4j.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/twitter4j.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="250" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="OAuthAuthorization.class" partName="OAuthAuthorization.class" title="OAuthAuthorization.class" tooltip="twitter4j.auth.OAuthAuthorization" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=TweetAnalysis/\/Users\/ramasubramaniankrishnamurthy\/Desktop\/EclipseWorkspace\/twitter4j-2-1\/lib\/twitter4j-core-2.2.5.jar&lt;twitter4j.auth(OAuthAuthorization.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="TwitterFactory.class" partName="TwitterFactory.class" title="TwitterFactory.class" tooltip="twitter4j.TwitterFactory" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=TweetAnalysis/\/Users\/ramasubramaniankrishnamurthy\/Desktop\/EclipseWorkspace\/twitter4j-2-1\/lib\/twitter4j-core-2.2.5.jar&lt;twitter4j(TwitterFactory.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="AuthorizationFactory.class" partName="AuthorizationFactory.class" title="AuthorizationFactory.class" tooltip="twitter4j.auth.AuthorizationFactory" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=TweetAnalysis/\/Users\/ramasubramaniankrishnamurthy\/Desktop\/EclipseWorkspace\/twitter4j-2-1\/lib\/twitter4j-core-2.2.5.jar&lt;twitter4j.auth(AuthorizationFactory.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowUserList.java" partName="ShowUserList.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/list/ShowUserList.java" title="ShowUserList.java" tooltip="TweetAnalysis/src/twitter4j/examples/list/ShowUserList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/list/ShowUserList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1285" selectionTopPixel="48"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetUserTimeline.java" partName="GetUserTimeline.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/timeline/GetUserTimeline.java" title="GetUserTimeline.java" tooltip="TweetAnalysis/src/twitter4j/examples/timeline/GetUserTimeline.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/timeline/GetUserTimeline.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1349" selectionTopPixel="107"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetLocationTrends.java" partName="GetLocationTrends.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/trends/GetLocationTrends.java" title="GetLocationTrends.java" tooltip="TweetAnalysis/src/twitter4j/examples/trends/GetLocationTrends.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/trends/GetLocationTrends.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1516" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="example.java" partName="example.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/example.java" title="example.java" tooltip="InterviewQuestions/src/myJavaProgs/example.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/example.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="209" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AggregateDemo.java" partName="AggregateDemo.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/demos/prefuse/demos/AggregateDemo.java" title="AggregateDemo.java" tooltip="prefuse/demos/prefuse/demos/AggregateDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/demos/prefuse/demos/AggregateDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2012" selectionTopPixel="4602"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Congress.java" partName="Congress.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/demos/prefuse/demos/Congress.java" title="Congress.java" tooltip="prefuse/demos/prefuse/demos/Congress.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/demos/prefuse/demos/Congress.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2695" selectionTopPixel="4242"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="amazon.txt" partName="amazon.txt" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/data/amazon.txt" title="amazon.txt" tooltip="prefuse/data/amazon.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/data/amazon.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="50" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GraphView.java" partName="GraphView.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/demos/prefuse/demos/GraphView.java" title="GraphView.java" tooltip="prefuse/demos/prefuse/demos/GraphView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/demos/prefuse/demos/GraphView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3110" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataMountain.java" partName="DataMountain.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/demos/prefuse/demos/DataMountain.java" title="DataMountain.java" tooltip="prefuse/demos/prefuse/demos/DataMountain.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/demos/prefuse/demos/DataMountain.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FisheyeMenu.java" partName="FisheyeMenu.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/demos/prefuse/demos/FisheyeMenu.java" title="FisheyeMenu.java" tooltip="prefuse/demos/prefuse/demos/FisheyeMenu.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/demos/prefuse/demos/FisheyeMenu.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RadialGraphView.java" partName="RadialGraphView.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/demos/prefuse/demos/RadialGraphView.java" title="RadialGraphView.java" tooltip="prefuse/demos/prefuse/demos/RadialGraphView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/demos/prefuse/demos/RadialGraphView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScatterPlot.java" partName="ScatterPlot.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/demos/prefuse/demos/ScatterPlot.java" title="ScatterPlot.java" tooltip="prefuse/demos/prefuse/demos/ScatterPlot.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/demos/prefuse/demos/ScatterPlot.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TreeMap.java" partName="TreeMap.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/demos/prefuse/demos/TreeMap.java" title="TreeMap.java" tooltip="prefuse/demos/prefuse/demos/TreeMap.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/demos/prefuse/demos/TreeMap.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TreeView.java" partName="TreeView.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/demos/prefuse/demos/TreeView.java" title="TreeView.java" tooltip="prefuse/demos/prefuse/demos/TreeView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/demos/prefuse/demos/TreeView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VisualizationTest.java" partName="VisualizationTest.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/test/test/prefuse/visual/VisualizationTest.java" title="VisualizationTest.java" tooltip="prefuse/test/test/prefuse/visual/VisualizationTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/test/test/prefuse/visual/VisualizationTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1142" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GraphMLReader.java" partName="GraphMLReader.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/src/prefuse/data/io/GraphMLReader.java" title="GraphMLReader.java" tooltip="prefuse/src/prefuse/data/io/GraphMLReader.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/src/prefuse/data/io/GraphMLReader.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1146" selectionTopPixel="4261"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="terror.xml" partName="terror.xml" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/data/terror.xml" title="terror.xml" tooltip="prefuse/data/terror.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/data/terror.xml"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="fisher.iris.txt" partName="fisher.iris.txt" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/data/fisher.iris.txt" title="fisher.iris.txt" tooltip="prefuse/data/fisher.iris.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/data/fisher.iris.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3319" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="fec.txt" partName="fec.txt" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/data/fec.txt" title="fec.txt" tooltip="prefuse/data/fec.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/data/fec.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1404" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Graph.java" partName="Graph.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/src/prefuse/data/Graph.java" title="Graph.java" tooltip="prefuse/src/prefuse/data/Graph.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/src/prefuse/data/Graph.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1783" selectionTopPixel="20427"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="processJSON.java" partName="processJSON.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/src/twitter4j/examples/json/processJSON.java" title="processJSON.java" tooltip="TweetAnalysis/src/twitter4j/examples/json/processJSON.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/src/twitter4j/examples/json/processJSON.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1383" selectionTopPixel="317"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="New_Tweets" partName="New_Tweets" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/New_Tweets" title="New_Tweets" tooltip="TweetAnalysis/New_Tweets" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/New_Tweets"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="36571" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="New_Tweets.json" partName="New_Tweets.json" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/TweetAnalysis/New_Tweets.json" title="New_Tweets.json" tooltip="TweetAnalysis/New_Tweets.json" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TweetAnalysis/New_Tweets.json"/>
+<editorState selectionHorizontalPixel="11154" selectionLength="0" selectionOffset="7419044" selectionTopPixel="43142"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="graphml-sample.xml" partName="graphml-sample.xml" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/data/graphml-sample.xml" title="graphml-sample.xml" tooltip="prefuse/data/graphml-sample.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/data/graphml-sample.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="socialnet.xml" partName="socialnet.xml" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/data/socialnet.xml" title="socialnet.xml" tooltip="prefuse/data/socialnet.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/data/socialnet.xml"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="state.txt" partName="state.txt" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/data/state.txt" title="state.txt" tooltip="prefuse/data/state.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/data/state.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="265" selectionTopPixel="308"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="zipcode.txt" partName="zipcode.txt" path="/Users/ramasubramaniankrishnamurthy/Desktop/prefuse-beta/data/zipcode.txt" title="zipcode.txt" tooltip="prefuse/data/zipcode.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prefuse/data/zipcode.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49902" selectionTopPixel="15221"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="svm_predict.java" partName="svm_predict.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/Classifier/svm_predict.java" title="svm_predict.java" tooltip="Classifier/svm_predict.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Classifier/svm_predict.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1321" selectionTopPixel="395"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Makefile" partName="Makefile" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/Classifier/Makefile" title="Makefile" tooltip="Classifier/Makefile" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Classifier/Makefile"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="svm.java" partName="svm.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/Classifier/libsvm/svm.java" title="svm.java" tooltip="Classifier/libsvm/svm.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Classifier/libsvm/svm.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9420" selectionTopPixel="5934"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="stopwords.txt" partName="stopwords.txt" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/Classifier/stopwords.txt" title="stopwords.txt" tooltip="Classifier/stopwords.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Classifier/stopwords.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="137" selectionTopPixel="5771"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="training.txt" partName="training.txt" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/Classifier/training.txt" title="training.txt" tooltip="Classifier/training.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Classifier/training.txt"/>
+<editorState selectionHorizontalPixel="25" selectionLength="0" selectionOffset="806271" selectionTopPixel="38760"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="testdata.txt" partName="testdata.txt" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/Classifier/testdata.txt" title="testdata.txt" tooltip="Classifier/testdata.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Classifier/testdata.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AlternateStrings.java" partName="AlternateStrings.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/AlternateStrings.java" title="AlternateStrings.java" tooltip="InterviewQuestions/src/myJavaProgs/AlternateStrings.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/AlternateStrings.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1299" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearch.java" partName="BinarySearch.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/BinarySearch.java" title="BinarySearch.java" tooltip="InterviewQuestions/src/myJavaProgs/BinarySearch.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/BinarySearch.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="533" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Anagrams.java" partName="Anagrams.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/Anagrams.java" title="Anagrams.java" tooltip="InterviewQuestions/src/myJavaProgs/Anagrams.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/Anagrams.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="511" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MSFTInterviewQuestion.java" partName="MSFTInterviewQuestion.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/InterviewQuestions/src/myJavaProgs/MSFTInterviewQuestion.java" title="MSFTInterviewQuestion.java" tooltip="InterviewQuestions/src/myJavaProgs/MSFTInterviewQuestion.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InterviewQuestions/src/myJavaProgs/MSFTInterviewQuestion.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="385" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Assignment.java" partName="Assignment.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/BrightEdge/src/Assignment.java" title="Assignment.java" tooltip="BrightEdge/src/Assignment.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BrightEdge/src/Assignment.java"/>
+<editorState selectionHorizontalPixel="61" selectionLength="0" selectionOffset="2729" selectionTopPixel="1170"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearch.java" partName="BinarySearch.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/SortingTechniques/src/BinarySearch.java" title="BinarySearch.java" tooltip="SortingTechniques/src/BinarySearch.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SortingTechniques/src/BinarySearch.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="1187" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sort.java" partName="Sort.java" path="/Users/ramasubramaniankrishnamurthy/Desktop/EclipseWorkspace/SortingTechniques/src/Sort.java" title="Sort.java" tooltip="SortingTechniques/src/Sort.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SortingTechniques/src/Sort.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="426" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
+<viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
+<columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets">
+<viewState>
+<entry expansion="false" extent="20" maximum="100" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" showCategories="true"/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (50 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
+<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
+<sorter groupBy="CATEGORY_QUERY">&#x0A;<sorter>&#x0A;<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sort1 sortDirection="1" sortKey="RANK"/>
+<sort2 sortDirection="1" sortKey="DATE_CREATED"/>
+<sort3 sortDirection="1" sortKey="NONE"/>
+<sort4 sortDirection="1" sortKey="NONE"/>
+<sort5 sortDirection="1" sortKey="NONE"/>
+<sort6 sortDirection="1" sortKey="NONE"/>
+<sort7 sortDirection="1" sortKey="NONE"/>
+</sorter>
+</sorter>
+<filteredTreeFindHistory>&#x0A;<historyItem text="php"/>
+</filteredTreeFindHistory>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
+<show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<show_view_action id="org.eclipse.ui.views.AllMarkersView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_in_time id="org.eclipse.jdt.ui.PackageExplorer" time="1329109564260"/>
+<new_wizard_action id="org.eclipse.jpt.jpa.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.EarProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.project.facet.EjbProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.jca.ui.internal.wizard.ConnectorProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.appclient.AppClientProjectWizard"/>
+<new_wizard_action id="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddSessionBeanWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddMessageDrivenBeanWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newEntity"/>
+<new_wizard_action id="org.eclipse.jst.ws.creation.ui.wizard.serverwizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.jpt.ui.jpaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3daa3554" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@e88cf92" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="topLeft">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomRight" ratio="0.742532" ratioLeft="522" ratioRight="181" relationship="4" relative="org.eclipse.ui.internal.ViewStack@e88cf92">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.87053883" ratioLeft="1244" ratioRight="185" relationship="2" relative="org.eclipse.ui.internal.ViewStack@e88cf92">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.20306204" ratioLeft="252" ratioRight="989" relationship="2" relative="org.eclipse.ui.internal.ViewStack@e88cf92"/>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="358" ratioRight="1074" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.75" ratioLeft="549" ratioRight="183" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@73949d1" ratio="0.7495344" ratioLeft="805" ratioRight="269" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.49908924" ratioLeft="274" ratioRight="275" relationship="4" relative="org.eclipse.ui.internal.ViewStack@73949d1">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SortingTechniques/src/BinarySearchRecursive.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SortingTechniques/src/BinarySearch.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SortingTechniques/src/InsertionSort.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SortingTechniques/src/Sort.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/InterviewQuestions/src/myJavaProgs/BFSandDFS.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/InterviewQuestions/src/myJavaProgs/BFS.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/InterviewQuestions/src/myJavaProgs/HexToDecimal.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/InterviewQuestions/src/myJavaProgs/HexToI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/InterviewQuestions/src/myJavaProgs/SetIntersection.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/InterviewQuestions/src/myJavaProgs/BST.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/InterviewQuestions/src/sortingmethods/InsSort.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/InterviewQuestions/src/myJavaProgs/BinarySearch.java"/>
+</editors>
+<item historyLabel="BinarySearchRecursive.java" index="0">
+<position info="not_deleted" x="1386" y="0"/>
+</item>
+<item historyLabel="BinarySearchRecursive.java" index="0">
+<position info="not_deleted" x="1517" y="0"/>
+</item>
+<item historyLabel="BinarySearchRecursive.java" index="0">
+<position info="not_deleted" x="774" y="0"/>
+</item>
+<item historyLabel="BinarySearchRecursive.java" index="0">
+<position/>
+</item>
+<item historyLabel="BinarySearchRecursive.java" index="0">
+<position/>
+</item>
+<item historyLabel="BinarySearchRecursive.java" index="0">
+<position/>
+</item>
+<item historyLabel="BinarySearchRecursive.java" index="0">
+<position/>
+</item>
+<item historyLabel="BinarySearchRecursive.java" index="0">
+<position info="not_deleted" x="766" y="0"/>
+</item>
+<item historyLabel="BinarySearchRecursive.java" index="0">
+<position info="not_deleted" x="770" y="0"/>
+</item>
+<item historyLabel="BinarySearch.java" index="1">
+<position info="not_deleted" x="740" y="0"/>
+</item>
+<item historyLabel="BinarySearch.java" index="1">
+<position info="not_deleted" x="456" y="0"/>
+</item>
+<item historyLabel="InsertionSort.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="InsertionSort.java" index="2">
+<position/>
+</item>
+<item historyLabel="InsertionSort.java" index="2">
+<position/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="52" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="101" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="100" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="249" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="244" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="194" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="244" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="226" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="244" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="426" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="424" y="0"/>
+</item>
+<item historyLabel="Sort.java" index="3">
+<position info="not_deleted" x="426" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="377" y="0"/>
+</item>
+<item historyLabel="BFS.java" index="5">
+<position info="not_deleted" x="323" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="506" y="0"/>
+</item>
+<item historyLabel="HexToDecimal.java" index="6">
+<position info="not_deleted" x="505" y="0"/>
+</item>
+<item historyLabel="HexToI.java" index="7">
+<position info="not_deleted" x="393" y="0"/>
+</item>
+<item historyLabel="SetIntersection.java" index="8">
+<position info="not_deleted" x="473" y="0"/>
+</item>
+<item historyLabel="BST.java" index="9">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="BST.java" index="9">
+<position info="not_deleted" x="4008" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="1272" y="38"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="824" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="585" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="818" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="621" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="686" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="814" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="812" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="1496" y="0"/>
+</item>
+<item historyLabel="BFSandDFS.java" index="4">
+<position info="not_deleted" x="1436" y="0"/>
+</item>
+<item historyLabel="InsSort.java" index="10">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="InsSort.java" index="10">
+<position info="not_deleted" x="896" y="0"/>
+</item>
+<item historyLabel="BinarySearch.java" index="11">
+<position info="not_deleted" x="533" y="0"/>
+</item>
+<item active="true" historyLabel="BinarySearch.java" index="1">
+<position info="not_deleted" x="456" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InsertionSort.java" tooltip="SortingTechniques/src/InsertionSort.java">
+<persistable path="/SortingTechniques/src/InsertionSort.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchRecursive.java" tooltip="SortingTechniques/src/BinarySearchRecursive.java">
+<persistable path="/SortingTechniques/src/BinarySearchRecursive.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SalesTax.java" tooltip="BrightEdge/src/SalesTax.java">
+<persistable path="/BrightEdge/src/SalesTax.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MSFTInterviewQuestion.java" tooltip="InterviewQuestions/src/myJavaProgs/MSFTInterviewQuestion.java">
+<persistable path="/InterviewQuestions/src/myJavaProgs/MSFTInterviewQuestion.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Anagrams.java" tooltip="InterviewQuestions/src/myJavaProgs/Anagrams.java">
+<persistable path="/InterviewQuestions/src/myJavaProgs/Anagrams.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearch.java" tooltip="InterviewQuestions/src/myJavaProgs/BinarySearch.java">
+<persistable path="/InterviewQuestions/src/myJavaProgs/BinarySearch.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AlternateStrings.java" tooltip="InterviewQuestions/src/myJavaProgs/AlternateStrings.java">
+<persistable path="/InterviewQuestions/src/myJavaProgs/AlternateStrings.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="testdata.txt" tooltip="Classifier/testdata.txt">
+<persistable path="/Classifier/testdata.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="training.txt" tooltip="Classifier/training.txt">
+<persistable path="/Classifier/training.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="stopwords.txt" tooltip="Classifier/stopwords.txt">
+<persistable path="/Classifier/stopwords.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NaiveBayes.java" tooltip="Classifier/src/NaiveBayes.java">
+<persistable path="/Classifier/src/NaiveBayes.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="svm.java" tooltip="Classifier/libsvm/svm.java">
+<persistable path="/Classifier/libsvm/svm.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Makefile" tooltip="Classifier/Makefile">
+<persistable path="/Classifier/Makefile"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="svm_predict.java" tooltip="Classifier/svm_predict.java">
+<persistable path="/Classifier/svm_predict.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="zipcode.txt" tooltip="prefuse/data/zipcode.txt">
+<persistable path="/prefuse/data/zipcode.txt"/>
+</file>
+</mruList>
+</workbench>
