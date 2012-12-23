@@ -1,0 +1,11 @@
+package FacebookQuestions;
+
+import java.io.*;
+
+class Object
+
+public class Object1{
+	public static void main(String[] args)throws IOException{
+		System.out.println("Hello! Object class can be created!");
+	}
+}

@@ -13,14 +13,17 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="System.out.println" key="selection"/>
+		<item value="findGiantComponentSize" key="selection"/>
 		<list key="findhistory">
+			<item value="findGiantComponentSize"/>
+			<item value="LocalNode"/>
 			<item value="System.out.println"/>
 			<item value="TreeNode"/>
 			<item value="Ann Arbor"/>
 			<item value="Double"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Node1"/>
 			<item value="Node"/>
 			<item value="Integer"/>
 		</list>

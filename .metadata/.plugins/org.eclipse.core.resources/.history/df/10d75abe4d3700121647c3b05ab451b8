@@ -1,0 +1,118 @@
+package FacebookQuestions;
+
+import java.io.*;
+import java.util.*;
+
+class Node{
+	
+	int value;
+	Node left;
+	Node right;
+	
+	Node(int value){
+		this.value=value;
+		left=null;
+		right=null;
+	}
+}
+
+class BST{
+	
+	Node root;
+	
+	BST(){
+		root=null;
+	}
+	
+	public void insert(int value){
+		if(root==null){
+			root=new Node(value);
+		}else{
+			Node x=root,y=root;
+			
+            Node newnode=new Node(value);
+			
+            while(x!=null){
+            	y=x;
+				if(x.value>value){
+					x=x.left;
+				
+				}else{
+					x=x.right;
+				}
+			}
+            if(x==null){
+            	if(y.value>value){
+            		y.left=newnode;
+            	}else{
+            		y.right=newnode;
+            	}
+            }
+		}
+	}
+	
+	public void inorder(Node root)
+	{
+		if(root!=null){
+			inorder(root.left);
+			System.out.println(root.value);
+			inorder(root.right);
+		}
+	}
+	
+	public int findkthlargest(Node root,ArrayList l,int k){
+		
+			if(root!=null){
+				findkthlargest(root.left,l,k);
+				System.out.println("root.value:"+root.value);
+				l.add(root.value);
+				System.out.println(l.size());
+				findkthlargest(root.right,l,k);
+			}
+			if(l.size()>=k)
+				return (Integer)l.get(k-1);
+			return -1;
+		
+	}
+	
+	public void levelTraversal(Node root){
+		
+		//Level Order Traversal of a Binary Tree
+		Queue<Node> q=new LinkedList<Node>();
+			if(root!=null){
+				q.add(root);
+				q.add(null);
+				while(!q.isEmpty()){
+					Node x=q.remove();
+					if(x!=null){
+						System.out.print(x.value+"\t");
+						if(x.left!=null) 
+							q.add(x.left);
+						if(x.right!=null)
+							q.add(x.right);
+					}else{
+						if(!q.isEmpty()) q.add(null);
+						System.out.println();
+					}
+				}
+		}
+	}
+	
+	public static void main(String args[]) throws IOException{
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		BST bst=new BST();
+		int a[]={50,40,60,70,30,20,35,10,80,65,75};
+		for(int i:a){
+			bst.insert(i);
+		}
+		bst.inorder(bst.root);
+		bst.levelTraversal(bst.root);
+		ArrayList<Integer> l=new ArrayList<Integer>();
+		System.out.println("Enter value for k");
+		int k=Integer.parseInt(br.readLine());
+		System.out.println("Kth largest:"+bst.findkthlargest(bst.root, l,k));
+	}
+}
+	
+	
+
