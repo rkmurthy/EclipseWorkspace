@@ -49,7 +49,84 @@ public class BST {
 		   System.out.print(root.value+"\t");
 		   inorder(root.right);
 	   }
-	   //return;
+	 }
+	
+	public void preorder(Node root){
+		if(root != null){
+			System.out.print(root.value+"\t");
+			preorder(root.left);
+			preorder(root.right);
+		}
+	}
+	
+	public void postorder(Node root){
+		//Least useful of all
+		if(root != null){
+			postorder(root.left);
+			postorder(root.right);
+			System.out.print(root.value+"\t");
+		}
+	}
+	
+	public void DFS(Node root){
+		System.out.println("DFS Traversal of Tree");
+		
+		if(root != null){
+			Stack<Node> stack = new Stack<Node>();
+			stack.push(root);
+			while(!stack.isEmpty()){
+				Node x = stack.pop();
+				System.out.print(x.value+"\t");
+				if(x.right != null) stack.push(x.right);
+				if(x.left != null) stack.push(x.left);
+			}
+		}
+		
+	}
+	
+	public void BFS(Node root){
+		System.out.println("BFS Traversal of Tree");
+		
+		if(root != null){
+			Queue<Node> q = new LinkedList<Node>();
+			q.add(root);
+			while(!q.isEmpty()){
+				Node x = q.remove();
+				System.out.print(x.value+"\t");
+				if(x.left != null) q.add(x.left);
+				if(x.right != null) q.add(x.right);
+			}
+		}
+	}
+	
+	
+	public void LevelTraversal(Node root){
+		/*
+		 * Prints a level by level representation of the tree
+		 */
+		System.out.println("Level By Level Traversal is as follows:");
+		if(root != null){
+			Queue<Node> q = new LinkedList<Node>();
+			q.add(root);
+			q.add(null);
+			while(!q.isEmpty()){
+				Node x = q.remove();
+				if(x != null){
+					System.out.print(x.value+"\t");
+					if(x.left != null) q.add(x.left);
+					if(x.right != null) q.add(x.right);
+				}else{
+					/*This is a very important condition
+					else you may keep on adding null values to an empty list 
+					thus getting stuck in an infinite loop*/
+					if(!q.isEmpty()) q.add(null);
+					System.out.println();
+				}
+			}
+		}
+		
+		
+		
 	}
 	
 	public static boolean checkBST(Node root, int min, int max)throws Exception{
@@ -153,6 +230,8 @@ public class BST {
 		Node root_copy = deepClone(bst.root);
 		System.out.println("Deep Cloned Copy is as follows: ");
 		bst.inorder(root_copy);
+		System.out.println();
+		bst.LevelTraversal(bst.root);
 	}
 
 }
