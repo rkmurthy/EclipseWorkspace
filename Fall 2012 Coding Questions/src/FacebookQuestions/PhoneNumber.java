@@ -58,7 +58,7 @@ public static String getCharKey(int i, int offset){
 }
 	
 public static ArrayList<String> printTelephoneWords(int phoneNumber[]){
-	//734-730-7190
+
 	ArrayList<String> result=new ArrayList<String>();
 	
 	
