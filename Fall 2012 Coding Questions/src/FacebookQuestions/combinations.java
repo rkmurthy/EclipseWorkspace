@@ -1,50 +1,41 @@
 package FacebookQuestions;
-import java.io.*;
-import java.util.*;
+/*
+ * This is similar to producing all the subsets of a given set
+ */
+import java.util.ArrayList;
+import java.util.Arrays;
 
-public class combinations {
-
-	
-	static HashMap<String, ArrayList<String>> hmap;
-	
-	public static void createMap(){
-		hmap=new HashMap<String, ArrayList<String>>();
-		ArrayList<String> aList=new ArrayList<String>();
-		aList.add("@");
-		aList.add("-");
-		aList.add("$");
-		
-		hmap.put("a",aList);
-		 
-		aList=new ArrayList<String>();
-		aList.add("*");
-		aList.add("&");
-		hmap.put("c", aList);
-	}
-	
-	public static ArrayList<String> getResult(String s, int i){
-		createMap();
-		ArrayList<String> result=new ArrayList<String>();
-		if(i<s.length()){
-			String key=s.charAt(i)+"";
-			System.out.println("key:"+key);
-			if(hmap.containsKey(key)){
-				for(int j=0;j<hmap.get(key).size();j++){
-					s=s.substring(0,i)+hmap.get(key).get(j)+s.substring(i+1);
-					System.out.println(s);
-					result.add(s);
-					getResult(s,i+1);
-				}
-			}else{
-					getResult(s,i+1);
-					
-				}
-		}
-		return null;
-	}
-	
-	public static void main(String[] args) throws Exception{
-		createMap();
-		getResult("Face",0);
-	}
+public class Combinations {
+    	@SuppressWarnings("unchecked")
+		public static ArrayList<ArrayList<String>> getCombinations(String s)throws Exception{
+    		if( s == null )
+    			throw new Exception("Invalid String");
+    		ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
+    		result.add(new ArrayList<String>());
+			
+    		if(s.length()  == 0){
+    			return result;
+    		}
+    		int index = 0;
+    		while(index < s.length()){
+    				ArrayList<ArrayList<String>> temp = new ArrayList<ArrayList<String>>();
+    				for(ArrayList<String> r: result){
+    			        ArrayList<String> tempClone = (ArrayList<String>)r.clone();
+    			        tempClone.add(s.charAt(index)+"");
+    			        temp.add(tempClone);
+    				}
+    			result.addAll(temp);
+    			index +=1;
+    		}
+    		
+    		return result;	
+    	}
+    	
+    	public static void main(String[] args) throws Exception{
+    		ArrayList<ArrayList<String>> result = getCombinations("wxyz");
+    		for(ArrayList<String> r: result)
+    			if(r.size() != 0)
+    				System.out.println(Arrays.toString(r.toArray()));
+    		
+    	}
 }
