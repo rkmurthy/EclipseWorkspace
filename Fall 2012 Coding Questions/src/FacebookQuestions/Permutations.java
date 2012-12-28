@@ -6,7 +6,8 @@ import java.util.ArrayList;
 public class Permutations {
 /*
  * Program that outputs all the permutations of a string
- * 
+ * This however takes O(n!) time and we cannot do better than this in time
+ * Cannot be memoized!!
  */
 	
 	public static ArrayList<String> getPerms(String str)throws Exception{
