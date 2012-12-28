@@ -27,7 +27,7 @@ public class AllSubsets {
 		public static void main(String args[]) throws Exception{
 			ArrayList<Integer> set = new ArrayList<Integer>();
 			int i = 1;
-			while(i <= 10){
+			while(i <= 4){
 				set.add(i);
 				i++;
 			}
