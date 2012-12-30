@@ -213,6 +213,7 @@ public class BST {
 		return root_copy;
 	}
 	
+	
 	public static void main(String[] args)throws Exception{
 		BST bst = new BST();
 		int[] a = {60,40,50,20,30,10,70,80,65,75};

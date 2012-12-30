@@ -7,7 +7,7 @@ public class RotatedBinSearch {
 			System.out.println("start: "+start+"\t"+"end: "+end);
 			int mid = (start+end)/2;
 			if(a[mid] == x) {
-				System.out.println("mid: "+mid+"\t"+"a[mid]: "+a[mid]);
+				System.out.println("mid: "+mid+" --->"+"a["+mid+"]:"+a[mid]);
 				return mid;
 			}
 			if(a[mid] > x){
@@ -31,8 +31,8 @@ public class RotatedBinSearch {
 	
 	
 	public static void main(String[] args)throws Exception{
-		int[] a = {10,10,20,30,30,40,50,60,60,10};
-		System.out.println(binSearchRotated(a,0,a.length-1,40));
+		int[] a = {20,30,30,40,50,60,60,10,20};
+		System.out.println(binSearchRotated(a,0,a.length-1,20));
 		
 	}
 }
