@@ -1,7 +1,9 @@
 package TreeQuestions;
 
-import java.io.*;
-import java.util.*;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
 
 class Node{
 	int value;
