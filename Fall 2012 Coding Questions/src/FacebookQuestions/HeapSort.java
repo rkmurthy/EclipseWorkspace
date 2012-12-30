@@ -1,6 +1,7 @@
 package FacebookQuestions;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 
 public class HeapSort {
@@ -43,12 +44,12 @@ public class HeapSort {
 	}
 	
 	public static void main(String[] args) throws Exception{
-	int a[] = {90,80,50,12,35,54};
-     ArrayList<Integer> array = new ArrayList<Integer>();
-     for(int i:a) array.add(i);
-     ArrayList<Integer> result = heapSort(array);
-     for(int i = result.size()-1; i >= 0; i-- )
-    	 System.out.print(result.get(i)+"\t");
+		int a[] = {90,80,50,12,35,54};
+		ArrayList<Integer> array = new ArrayList<Integer>();
+		for(int i:a) array.add(i);
+		System.out.println("Input Array: "+Arrays.toString(array.toArray()));
+		ArrayList<Integer> result = heapSort(array);
+		System.out.println("Sorted result (in Descending order):\n "+Arrays.toString(result.toArray()));
      
      
 	}
