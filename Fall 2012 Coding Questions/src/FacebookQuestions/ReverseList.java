@@ -1,8 +1,5 @@
 package FacebookQuestions;
 
-import java.io.*;
-import java.util.*;
-
 class ListNode{
 	int value;
 	ListNode next;
@@ -41,7 +38,6 @@ class List<T>{
 	  while(x!=null ){
 		  System.out.print(x.value+"\t");
 		  x=x.next;
-		  //i++;
 	  }
 	  System.out.println();
 	}
@@ -50,8 +46,6 @@ class List<T>{
 	public int size(){
 		ListNode x=head;
 		int count=1;
-		//if(x!=null){
-			
 			while(x!=null){
 				x=x.next;
 				count++;
@@ -77,20 +71,17 @@ public class ReverseList {
 	
 	public static ListNode recursiveReverse(ListNode head){
 		ListNode temp=null;
-		
 		if(head.next==null)
 			return head;
 		
-		
-			 temp=recursiveReverse(head.next);
-			 head.next.next=head;
-			 head.next=null;
-		
-			 return temp;
+		temp=recursiveReverse(head.next);
+		head.next.next=head;
+		head.next=null;
+		return temp;
 		
 	}
 	
-	public static void main(String args[])throws IOException{
+	public static void main(String args[])throws Exception{
 		List<Integer> l=new List<Integer>();
 		int a[]={10,20,30,40,50,60};
 		

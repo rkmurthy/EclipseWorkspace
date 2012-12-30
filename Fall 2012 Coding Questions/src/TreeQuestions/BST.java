@@ -5,6 +5,17 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+class NodePair{
+	Node head;
+	Node tail;
+	
+	public NodePair(Node head, Node tail){
+		this.head = head;
+		this.tail = tail;
+	}
+	
+}
+
 class Node{
 	int value;
 	Node left;
@@ -140,8 +151,8 @@ public class BST {
 			return(checkBST(root.left, min, root.value) 
 						&& checkBST(root.right,root.value,max));
 		}
-		return true;
-			//throw new Exception("Root is null");
+	     return true;
+		//	throw new Exception("Root is null");
 	}
 	
 	public static int getMin(Node root)throws Exception{
@@ -215,6 +226,26 @@ public class BST {
 		return root_copy;
 	}
 	
+	public NodePair convert(Node root){
+		if(root == null) return null;
+		
+		NodePair part1 = convert(root.left);
+		NodePair part2 = convert(root.right);
+		
+		if(part1 != null)
+			concat(part1.tail,root);
+		
+		if(part2 != null)
+			concat(root,part2.head);
+		
+		return new NodePair(part1 == null ? root : part1.head, part2 == null ? root : part2.tail);
+	}
+	
+	public static void concat(Node x, Node y){
+		x.right = y;
+		y.left = x;
+	}
+	
 	
 	public static void main(String[] args)throws Exception{
 		BST bst = new BST();
@@ -235,6 +266,13 @@ public class BST {
 		bst.inorder(root_copy);
 		System.out.println();
 		bst.LevelTraversal(bst.root);
+		System.out.println("----------------------------------------------------------------");
+		System.out.println("Converting BST to DCLL");
+		NodePair result = bst.convert(bst.root);
+		Node x = null;
+		for (x = result.head; x!= result.tail;x = x.right)
+			   System.out.print(x.value+"<=>");
+		System.out.print(x.value);
 	}
 
 }
