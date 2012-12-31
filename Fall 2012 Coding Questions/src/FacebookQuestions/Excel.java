@@ -12,12 +12,12 @@ public class Excel {
 		for(int i=0;i<26;i++){
 			dict.put((char)('A'+i)+"", i+1);
 		}
-		//System.out.println(dict.entrySet());
+		System.out.println(dict.entrySet());
 	}
 	
 	public static void main(String[] args)throws IOException{
 		createMap();
-		System.out.println(convert("AA"));
+		System.out.println(convert("ZZZ"));
 	}
 	
 	public static String convert(String s){
