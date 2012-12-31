@@ -1,5 +1,25 @@
 package SortingMethods;
 
+public class Reverse {
+
+	public static void main(String[] args)throws Exception{
+		int a[] = {10,20,30,40,50,60,70,80,90};
+		LinkedList1 list = new LinkedList1();
+		for(int i:a)
+			list.insert(i);
+		list.displayList(list.head);
+		System.out.println();
+		Node1 head1 = list.reverseI(list.head);
+		list.displayList(head1);
+		System.out.println();
+		Node1 head2 = list.reverseR(head1);
+		list.displayList(head2);
+		System.out.println();
+		
+	}
+	
+}
+
 class Node1{
 	int value;
 	Node1 next;
@@ -51,8 +71,10 @@ class LinkedList1{
 	
 	public void displayList(Node1 head){
 		Node1 x = head;
-		while( x != null)
+		while( x != null){
 			System.out.print(x.value+"\t");
+			x = x.next;
+		}
 	}
 	
 	public Node1 reverseI(Node1 head){
@@ -73,26 +95,12 @@ class LinkedList1{
 		if(head.next == null) return head;
 		
 		Node1 temp = reverseR(head.next);
-		head.next.next = head.next;
+		head.next.next = head;
+		head.next = null;//This is a very important line when head is the previous first node of the list
+		///else we will end up getting a circular linked list
 		
 		return temp;
 	}
 }
 
-public class Reverse {
 
-	public static void reverse(Node1 head){
-		int a[] = {10,20,30,40,50,60,70,80,90};
-		LinkedList1 list = new LinkedList1();
-		for(int i:a)
-			list.insert(i);
-		list.displayList(list.head);
-		Node1 head1 = list.reverseI(list.head);
-		Node1 head2 = list.reverseR(head1);
-		list.displayList(head1);
-		list.displayList(head2);
-		
-		
-			
-	}
-}
