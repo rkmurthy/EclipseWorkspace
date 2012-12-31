@@ -5,7 +5,7 @@ public class CountWays {
 	public static boolean canForm(int n){
 		if(n == -9 || n == -8 || n==-7 || n==-6|| n==-5||n==-4||n==-3||n==-2||n==-1|| n == 0 || n ==1 || n == 2 || n == 3 || n == 4 || n == 5 || n == 6|| n == 7 || n == 8 || n == 9)
 			return true;
-		for(int i = 2; i < 10; i++){
+		for(int i = 0; i < 10; i++){
 			
 		        if( i == 0 | i == 1) i = 2;
 				if(canForm(1/i) && canForm(n*i)){
