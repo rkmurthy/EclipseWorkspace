@@ -1,5 +1,8 @@
 package TreeQuestions;
-
+/**
+ * Do not run BST to DCLL and findCommonAncestor together or change their order in the code and make 
+ * DCLL execute last because this changes the structure of the BST
+ */
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -13,7 +16,6 @@ class NodePair{
 		this.head = head;
 		this.tail = tail;
 	}
-	
 }
 
 class Node{
@@ -110,6 +112,20 @@ public class BST {
 				if(x.right != null) q.add(x.right);
 			}
 		}
+	}
+	
+	public static int findCommonAncestor(Node root, int x, int y)throws Exception{
+		//if(root ==  null) throw new Exception("Root is null");
+		Node n = root;
+		while(n != null){
+			if(n.value < x && n.value < y){
+				n = n.right;
+			}else if(n.value > x && n.value > y){
+				n = n.left;
+			}else
+				return n.value;
+		}
+		throw new Exception("No Common Ancestor Found for "+x+" "+y);
 	}
 	
 	
@@ -267,12 +283,16 @@ public class BST {
 		System.out.println();
 		bst.LevelTraversal(bst.root);
 		System.out.println("----------------------------------------------------------------");
+		System.out.println("Find common ancestor:\n--------------------------------------------");
+		System.out.println(findCommonAncestor(bst.root,20,50));
+		System.out.println("----------------------------------------------------------------");
 		System.out.println("Converting BST to DCLL");
 		NodePair result = bst.convert(bst.root);
 		Node x = null;
 		for (x = result.head; x!= result.tail;x = x.right)
 			   System.out.print(x.value+"<=>");
 		System.out.print(x.value);
+		System.out.println();
 	}
 
 }
