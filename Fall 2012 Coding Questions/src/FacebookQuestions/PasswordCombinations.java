@@ -27,7 +27,7 @@ public class PasswordCombinations {
 		ArrayList<String> result=new ArrayList<String>();
 		if(i<s.length()){
 			String key=s.charAt(i)+"";
-			System.out.println("key:"+key);
+			//System.out.println("key:"+key);
 			if(hmap.containsKey(key)){
 				for(int j=0;j<hmap.get(key).size();j++){
 					s=s.substring(0,i)+hmap.get(key).get(j)+s.substring(i+1);
