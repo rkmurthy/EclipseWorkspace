@@ -50,10 +50,10 @@ public class PasswordCombinations {
 				for(int i = 0; i < dictMap.get(key).size();i++){
 					s = s.substring(0,index)+dictMap.get(key).get(i)+s.substring(index+1);
 					result.add(s);
-					createCombinations(s,index+1,result);
+				    createCombinations(s,index+1,result);
 				}
 			}else{
-				createCombinations(s,index+1,result);
+				return createCombinations(s,index+1,result);
 			}
 		}
 		
