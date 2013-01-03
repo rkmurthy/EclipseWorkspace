@@ -16,22 +16,22 @@ public class NQueens {
 		
 	static void PlaceQueen(int row){
 		 if (row == n) {
-			 System.out.println(Arrays.toString(columnForRow));
+			 System.out.println("Solution:"+Arrays.toString(columnForRow));
 			 return;
-		 }
+		 }else{
 		for (int i = 0; i < n; i++) {
-		columnForRow[row]=i;
+			columnForRow[row]=i;
 			if(check(row)){
-				PlaceQueen(row+1);
+			PlaceQueen(row+1);
 			}
 		}
+		 }
+		
 	}
 	
 	public static void main(String[] args)throws Exception{
 		n=4;
 		columnForRow = new int[n];
-		for(int k=0;k<n;k++){
-			PlaceQueen(k);
-		}
+			PlaceQueen(0);
 	}
 }

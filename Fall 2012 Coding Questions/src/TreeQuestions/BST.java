@@ -3,6 +3,7 @@ package TreeQuestions;
  * Do not run BST to DCLL and findCommonAncestor together or change their order in the code and make 
  * DCLL execute last because this changes the structure of the BST
  */
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -261,11 +262,30 @@ public class BST {
 		x.right = y;
 		y.left = x;
 	}
+	static int index = -1;
+	static int[] inorder;
+	
+	public static void getNodeWithRank(Node root, int rank){
+		if(root != null){
+			getNodeWithRank(root.left,rank);
+			++index;
+			if(index == rank-1) System.out.println(root.value);
+			//System.out.println(Arrays.toString(inorder));
+			
+			getNodeWithRank(root.right,rank);
+		}
+		
+	
+		return ;
+	}
+	
 	
 	
 	public static void main(String[] args)throws Exception{
+		
 		BST bst = new BST();
 		int[] a = {60,40,50,20,30,10,70,80,65,75};
+		inorder=new int[a.length];
 		for(Integer i: a)
 			bst.insert(i);
 		bst.inorder(bst.root);
@@ -286,13 +306,18 @@ public class BST {
 		System.out.println("Find common ancestor:\n--------------------------------------------");
 		System.out.println(findCommonAncestor(bst.root,20,50));
 		System.out.println("----------------------------------------------------------------");
-		System.out.println("Converting BST to DCLL");
+		/*System.out.println("Converting BST to DCLL");
 		NodePair result = bst.convert(bst.root);
 		Node x = null;
 		for (x = result.head; x!= result.tail;x = x.right)
 			   System.out.print(x.value+"<=>");
-		System.out.print(x.value);
+		System.out.print(x.value);*/
 		System.out.println();
+        int rank = 5;
+		   getNodeWithRank(bst.root,rank);
+		 //  System.out.println("Node with rank "+rank+" is: "+x);
+		
+		
 	}
 
 }
