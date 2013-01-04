@@ -23,8 +23,8 @@ public class Primes {
 		for(int i = 0; i < n; i++)
 			a[i] = true;
 		for(int i = 2; i <= Math.sqrt(n); i++)
-		 for( int j = 2*i ; j < n; j += i)
-			 if(a[j]) a[j] = false;
+			for( int j = 2*i ; j < n; j += i)
+				if(a[j]) a[j] = false;
 		for(int i = 2; i < a.length; i++)
 			if(a[i]) System.out.print(i+"\t");
 	}

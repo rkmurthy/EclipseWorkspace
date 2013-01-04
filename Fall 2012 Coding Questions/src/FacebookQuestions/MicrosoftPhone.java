@@ -11,11 +11,12 @@ import java.util.Arrays;
 public class MicrosoftPhone {
     
 	
-	public static void traverse(int[][] a){
+	public static void traverse(int [][] a){
 		int i = 0; 
 		int j =0;
 		int layer = 0;
-		while( i != a.length/2 && j != a.length/2 ){
+		
+		while( i != a.length/2 && j != a[i].length/2 ){
 			
 			while(j <= a[i].length-layer-1){
 				System.out.print(a[i][j]+"\t");
@@ -49,7 +50,7 @@ public class MicrosoftPhone {
 }
 	
 	public static void main(String args[]) throws Exception{
-		int [][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+		int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
 		traverse(matrix);
 		System.out.println();
 		for(int i =0; i< matrix.length; i++)
