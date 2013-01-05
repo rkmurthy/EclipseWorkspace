@@ -3,9 +3,11 @@ package TreeQuestions;
  * Do not run BST to DCLL and findCommonAncestor together or change their order in the code and make 
  * DCLL execute last because this changes the structure of the BST
  */
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -279,6 +281,20 @@ public class BST {
 		return ;
 	}
 	
+	public static void printAllPaths(Node root,List<Node> list){
+		if(root == null) return;
+		list.add(root);
+		printAllPaths(root.left,list);
+		if(root.left == null){
+			for(Node l:list)
+				System.out.print(l.value+"\t");
+			System.out.println();
+		}
+		
+		printAllPaths(root.right,list);
+		list.remove(list.size()-1);
+	}
+	
 	
 	
 	public static void main(String[] args)throws Exception{
@@ -316,8 +332,9 @@ public class BST {
         int rank = 5;
 		   getNodeWithRank(bst.root,rank);
 		 //  System.out.println("Node with rank "+rank+" is: "+x);
-		
-		
+		   System.out.println("Printing All Paths from Root to leaves: ");
+		ArrayList<Node> list = new ArrayList<Node>();
+		printAllPaths(bst.root,list);
 	}
 
 }
