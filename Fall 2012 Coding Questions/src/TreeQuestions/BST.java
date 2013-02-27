@@ -1,8 +1,10 @@
 package TreeQuestions;
+
 /**
  * Do not run BST to DCLL and findCommonAncestor together or change their order in the code and make 
  * DCLL execute last because this changes the structure of the BST
  */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -295,6 +297,29 @@ public class BST {
 		list.remove(list.size()-1);
 	}
 	
+    public static Node createMinimalBST(int [] a, int start, int end){
+    	if(end < start || a.length == 0 || start < 0 || end > a.length)
+    		return null;
+    	Arrays.sort(a);
+    	int mid = (start+end)/2;
+    	Node n = new Node(a[mid]);
+    	n.left = createMinimalBST(a,start,mid-1);
+    	n. right = createMinimalBST(a,mid+1,end);
+    	return n;
+    }
+    
+    static int value  = Integer.MIN_VALUE;
+    public static boolean checkBST1(Node root){
+    	if(root != null){
+    		if(!checkBST1(root.left)) return false;
+    		if(root.value < value) return false;
+    			value = root.value;
+    			//System.out.print(value+"\t");
+    		if(!checkBST1(root.right)) return false;
+    	}	
+        return true;
+    }
+	
 	
 	
 	public static void main(String[] args)throws Exception{
@@ -335,6 +360,12 @@ public class BST {
 		   System.out.println("Printing All Paths from Root to leaves: ");
 		ArrayList<Node> list = new ArrayList<Node>();
 		printAllPaths(bst.root,list);
+		System.out.println("-------------------------------------------------");
+		System.out.println("Created Minimal BST");
+		Node root2 = createMinimalBST(a,0,a.length-1);
+		bst.inorder(root2);
+		System.out.println("\n-------------------------------------------------");
+		System.out.println(checkBST1(root2));
 	}
 
 }

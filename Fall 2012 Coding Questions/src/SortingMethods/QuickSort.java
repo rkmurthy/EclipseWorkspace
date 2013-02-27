@@ -8,7 +8,7 @@ public class QuickSort {
 		int n = start;
 		int pivot = array[n];
 		int i = 1, j = array.length-1;
-		if(i <= j && i < array.length && j >= 0){
+		while(i < j && i < array.length && j >= 0){
 			while(array[i] < pivot)
 					i++;
 			while(array[j] > pivot)
@@ -29,8 +29,8 @@ public class QuickSort {
 	}
 	
 	public static void Quick(int[] a, int start, int end){
-	//	if(end < start) return;
-		if(start <= end){
+		
+		if(start < end){
 			//System.out.println("I am executed?");
 		int pivot = partition(a,start,end);
 		//System.out.println("I am executed?222");
@@ -39,12 +39,13 @@ public class QuickSort {
 		Quick(a, pivot+1, end);
 		//System.out.println("I am executed? 345");
 		}
+		//return;
 	}
 	
 	public static void main(String[] args) throws IOException{
 		int array[] = {35,10,20,30,40,50,60};
 		Quick(array, 0, array.length-1);
-		for(Integer i: array)
+		for(int i: array)
 			System.out.print(i+"\t");
 	}
 }
